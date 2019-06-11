@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
+
+/* ---------------------------------------Background Colours */
+
+.bg-home-welcome {
+  background-color: #0c0c0aed;
+}
+
+.bg-color-links {
+  background-color: rgb(204, 186, 163);
+}
+
+.bg-home-links-top {
+  background-color: #008150;
+}
+
+.bg-home-links-bottom {
+  background-color: #e3001d;
+}
+
+.scroll-down {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/* ----------------------------------------Text */
+.header-text {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #ffffff8a;
+  letter-spacing: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.intro-text {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #e00606ab;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.signature {
+  font-size: 1.3rem;
+  color: #e00606;
+}
+
+
+body {
+  background-color: floralwhite;
+}
+
+
+.home-links {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+
+
+}
+
+/* ---------------------------------------Video Header */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 60vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+
+
+
+.home-images {
+  transform: translateY(-8%);
+}
+
+.autavia-link {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  transform: translateX(100%);
+  border: 5px solid #e4dabd;
+  overflow: hidden;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #a94f34;
+
+
+}
