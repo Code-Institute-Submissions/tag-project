@@ -26,6 +26,16 @@
   padding-top: 2rem;
 }
 
+.tag-border-green {
+  border: 15px solid #008150;
+  transition: 0.7s all ease-in;
+}
+
+.tag-border-red {
+  border: 15px solid #a94f34;
+  transition: 0.7s all ease-in;
+}
+
 /* ----------------------------------------Text */
 .header-text {
   font-family: "Exo", sans-serif;
@@ -44,6 +54,7 @@
   text-align: center;
   text-transform: capitalize;
 }
+
 
 .signature {
   font-size: 1.3rem;
@@ -115,7 +126,17 @@ header .overlay {
   }
 }
 
-
+/* --------------------------------------- To be sorted */
+.autavia-logo {
+  background: url('/tag-project/assets/images/autavia-logo.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
 
 
 .home-images {
@@ -132,4 +153,9 @@ header .overlay {
   border-radius: 200px;
   box-sizing: border-box;
   background-color: #a94f34;
+}
+
+.watch-header {
+  background-color: black;
+  opacity: 0.9;
 }
