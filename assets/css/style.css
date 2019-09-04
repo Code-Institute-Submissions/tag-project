@@ -26,13 +26,24 @@
   padding-top: 2rem;
 }
 
+.content-break {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
 .tag-border-green {
-  border: 15px solid #008150;
+  border-top: 15px solid #008150;
+  border-bottom: 15px solid #008150;
+  border-right: 15px solid #a94f34;
   transition: 0.7s all ease-in;
 }
 
 .tag-border-red {
-  border: 15px solid #a94f34;
+  border-top: 15px solid #008150;
+  border-bottom: 15px solid #008150;
+  border-left: 15px solid #a94f34;
+  border-right: 15px solid #a94f34;
   transition: 0.7s all ease-in;
 }
 
@@ -138,6 +149,68 @@ header .overlay {
   -webkit-transition: all .5s ease-in-out;
 }
 
+.monaco-logo {
+  background: url('/tag-project/assets/images/monaco.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  z-index: -1;
+  position: relative;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.aquaracer-logo {
+  background: url('/tag-project/assets/images/aquaracer.png');
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.link-logo {
+  background: url('/tag-project/assets/images/link-men.png');
+  background-color: black;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.formula_one-logo {
+  background: url('/tag-project/assets/images/f1.png');
+  background-color: black;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.carrera-logo {
+  background: url('/tag-project/assets/images/carrera.png');
+  background-color: black;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
 
 .home-images {
   transform: translateY(-8%);
@@ -158,4 +231,54 @@ header .overlay {
 .watch-header {
   background-color: black;
   opacity: 0.9;
+}
+
+.info-navbar {
+  background-color: #0c0c0aed;
+  min-height: 10vh;
+  border-top: 0px;
+  transition: 0.7s all ease-in;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4vh;
+  list-style-type: none;
+  border-right: 15px solid #a94f34;
+}
+
+.info-navbar a {
+  font-family: Montserrat, sans-serif;
+  color: #e4dabd;
+}
+
+.content-area {
+  width: 100%;
+  height: 30rem;
+  background-color: black;
+  opacity: 0.9;
+  border-top: 15px solid #008150;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.content-area h2 {
+  margin-top: 3vh;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  color: #e00606ab;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.product-info-text p {
+  text-align: left;
+  color: #008150;
+  padding-left: 2vh;
 }
