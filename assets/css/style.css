@@ -139,7 +139,7 @@ header .overlay {
 
 /* --------------------------------------- To be sorted */
 .autavia-logo {
-  background: url('/tag-project/assets/images/autavia-logo.jpg');
+  background: url('assets/images/autavia-logo.jpg');
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
@@ -150,7 +150,7 @@ header .overlay {
 }
 
 .monaco-logo {
-  background: url('/tag-project/assets/images/monaco.jpg');
+  background: url('assets/images/monaco.jpg');
   background-color: black;
   background-position: center;
   background-repeat: round;
@@ -165,7 +165,7 @@ header .overlay {
 }
 
 .aquaracer-logo {
-  background: url('/tag-project/assets/images/aquaracer.png');
+  background: url('assets/images/aquaracer.png');
   background-color: black;
   background-position: center;
   background-repeat: round;
@@ -177,7 +177,7 @@ header .overlay {
 }
 
 .link-logo {
-  background: url('/tag-project/assets/images/link-men.png');
+  background: url('assets/images/link-men.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
@@ -189,7 +189,7 @@ header .overlay {
 }
 
 .formula_one-logo {
-  background: url('/tag-project/assets/images/f1.png');
+  background: url('assets/images/f1.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
@@ -201,7 +201,7 @@ header .overlay {
 }
 
 .carrera-logo {
-  background: url('/tag-project/assets/images/carrera.png');
+  background: url('assets/images/carrera.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
