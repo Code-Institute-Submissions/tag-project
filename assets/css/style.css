@@ -35,15 +35,15 @@
 .tag-border-green {
   border-top: 15px solid #008150;
   border-bottom: 15px solid #008150;
-  border-right: 15px solid #a94f34;
+  border-right: 15px solid #ba6f58;
   transition: 0.7s all ease-in;
 }
 
 .tag-border-red {
   border-top: 15px solid #008150;
   border-bottom: 15px solid #008150;
-  border-left: 15px solid #a94f34;
-  border-right: 15px solid #a94f34;
+  border-left: 15px solid #ba6f58;
+  border-right: 15px solid #ba6f58;
   transition: 0.7s all ease-in;
 }
 
@@ -139,9 +139,10 @@ header .overlay {
 
 /* --------------------------------------- To be sorted */
 .autavia-logo {
-  background: url('assets/images/autavia-logo.jpg');
+  background: url('/tag-project/assets/images/autavia.png');
+  background-color: black;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: round;
   background-size: contain;
   min-height: 360px;
   transition: all .5s ease-in-out;
@@ -150,22 +151,20 @@ header .overlay {
 }
 
 .monaco-logo {
-  background: url('assets/images/monaco.jpg');
+  background: url('/tag-project/assets/images/monaco.png');
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
   transition: all .5s ease-in-out;
-  z-index: -1;
-  position: relative;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 
 }
 
 .aquaracer-logo {
-  background: url('assets/images/aquaracer.png');
+  background: url('/tag-project/assets/images/aquaracer.png');
   background-color: black;
   background-position: center;
   background-repeat: round;
@@ -177,7 +176,7 @@ header .overlay {
 }
 
 .link-logo {
-  background: url('assets/images/link-men.png');
+  background: url('/tag-project/assets/images/link-men.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
@@ -189,19 +188,19 @@ header .overlay {
 }
 
 .formula_one-logo {
-  background: url('assets/images/f1.png');
+  background: url('/tag-project/assets/images/f1.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
-  min-height: 360px;
+  height: 360px;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
 
 .carrera-logo {
-  background: url('assets/images/carrera.png');
+  background: url('/tag-project/assets/images/carrera.png');
   background-color: black;
   background-position: center;
   background-repeat: repeat;
@@ -242,7 +241,7 @@ header .overlay {
   text-decoration: none;
   font-size: 4vh;
   list-style-type: none;
-  border-right: 15px solid #a94f34;
+  border-right: 15px solid #ba6f58;
 }
 
 .info-navbar a {
@@ -252,7 +251,7 @@ header .overlay {
 
 .content-area {
   width: 100%;
-  height: 30rem;
+  height: 22rem;
   background-color: black;
   opacity: 0.9;
   border-top: 15px solid #008150;
@@ -281,4 +280,106 @@ p {
   text-align: left;
   color: #008150;
   padding-left: 2vh;
+  flex: 1;
+}
+
+
+
+/* ---------------------------------------- Mobile Users */
+
+@media (max-width: 813px) {
+
+
+  .header-text h1 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #008150;
+  }
+
+  .header-text p {
+    color: #e00606ab;
+    font-size: 1.1rem;
+  }
+
+  /* ----------------------------------------- Making product picture central for mobile */
+  .autavia-logo,
+  .aquaracer-logo,
+  .monaco-logo,
+  .carrera-logo,
+  .formula_one-logo,
+  .link-logo {
+    background-repeat: no-repeat;
+  }
+
+  .watch-header {
+    border-left: 15px solid #ba6f58;
+  }
+
+  /* --------------------------------------- Removing desktop nav bar for mobile (to replace with mobile nav)  */
+  .info-navbar {
+    display: none
+  }
+
+  .content-area {
+    border-top: 15px solid #ba6f58;
+    border-left: 15px solid #ba6f58;
+    border-right: 15px solid #ba6f58;
+    height: 1fr;
+    overflow-y: scroll;
+  }
+
+  /* ----------------------------------------- Smaller font size for mobile */
+  .content-area .header-text {
+    font-size: 1.7rem;
+    color: #008150;
+  }
+
+  .content-area p {
+    font-size: 1.1rem;
+  }
+
+  /*--------------------------------------------Mobile Nav Bar */
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #000000db;
+    overflow: auto;
+    white-space: nowrap;
+    height: 3rem;
+    border-left: 15px solid #ba6f58;
+    border-right: 15px solid #ba6f58;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .cards {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #941d1c;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #000000;
+    color: #008150;
+    height: 100%;
+  }
+
+
+}
+
+@media (min-width:813px) {
+  .topnav {
+    display: none;
+  }
 }
