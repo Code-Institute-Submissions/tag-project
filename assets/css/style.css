@@ -313,7 +313,8 @@ p {
   }
 
   .watch-header {
-    border-left: 15px solid #ba6f58;
+    border-left: none;
+    border-right: none;
   }
 
   /* --------------------------------------- Removing desktop nav bar for mobile (to replace with mobile nav)  */
@@ -323,10 +324,9 @@ p {
 
   .content-area {
     border-top: 15px solid #ba6f58;
-    border-left: 15px solid #ba6f58;
-    border-right: 15px solid #ba6f58;
-    height: 1fr;
-    overflow-y: scroll;
+    border-left: none;
+    border-right: none;
+    height: 100%;
   }
 
   /* ----------------------------------------- Smaller font size for mobile */
@@ -347,8 +347,6 @@ p {
     overflow: auto;
     white-space: nowrap;
     height: 3rem;
-    border-left: 15px solid #ba6f58;
-    border-right: 15px solid #ba6f58;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -375,6 +373,12 @@ p {
     height: 100%;
   }
 
+  /* -------------------------------------------Remove right and left border on mobile */
+
+  .tag-border-red {
+    border-right: none;
+    border-left: none;
+  }
 
 }
 
