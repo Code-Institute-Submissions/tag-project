@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 @import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
 
 /* ---------------------------------------Background Colours */
@@ -66,149 +66,98 @@
   text-transform: capitalize;
 }
 
-
 .signature {
   font-size: 1.3rem;
   color: #e00606;
 }
 
-
 body {
-  background-color: floralwhite;
+  background-color: rgba(0, 0, 0, 0.945);
 }
 
-
 .home-links {
-  margin-top: 5rem !important;
-  margin-bottom: 5rem !important;
-
-
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* ---------------------------------------Video Header */
 
 header {
-  position: relative;
-  background-color: black;
-  height: 60vh;
-  min-height: 25rem;
   width: 100%;
   overflow: hidden;
 }
 
-header video {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.4;
-  z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
-}
-
 /* --------------------------------------- To be sorted */
 .autavia-logo {
-  background: url('/tag-project/assets/images/autavia.png');
+  background: url("/tag-project/assets/images/autavia.png");
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .monaco-logo {
-  background: url('/tag-project/assets/images/monaco.png');
+  background: url("/tag-project/assets/images/monaco.png");
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .aquaracer-logo {
-  background: url('/tag-project/assets/images/aquaracer.png');
+  background: url("/tag-project/assets/images/aquaracer.png");
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .link-logo {
-  background: url('/tag-project/assets/images/link-men.png');
+  background: url("/tag-project/assets/images/link-men.png");
   background-color: black;
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
   min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .formula_one-logo {
-  background: url('/tag-project/assets/images/f1.png');
+  background: url("/tag-project/assets/images/f1.png");
   background-color: black;
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
   height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .carrera-logo {
-  background: url('/tag-project/assets/images/carrera.png');
+  background: url("/tag-project/assets/images/carrera.png");
   background-color: black;
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
   min-height: 360px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .home-images {
@@ -217,9 +166,10 @@ header .overlay {
 
 .autavia-link {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  transform: translateX(100%);
+  height: 250px;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
   border: 5px solid #e4dabd;
   overflow: hidden;
   border-radius: 200px;
@@ -251,9 +201,7 @@ header .overlay {
 
 .content-area {
   width: 100%;
-  height: 22rem;
-  background-color: black;
-  opacity: 0.9;
+  height: 470px;
   border-top: 15px solid #008150;
   padding-left: 2vh;
   padding-right: 2vh;
@@ -283,13 +231,9 @@ p {
   flex: 1;
 }
 
-
-
-/* ---------------------------------------- Mobile Users */
+/* --------------------------------------------------------------------- Mobile Users */
 
 @media (max-width: 813px) {
-
-
   .header-text h1 {
     font-size: 2rem;
     padding-top: 1rem;
@@ -300,6 +244,23 @@ p {
   .header-text p {
     color: #e00606ab;
     font-size: 1.1rem;
+  }
+
+  /* ----------------------------------------- Making home screen links mobile friendly*/
+  .autavia-link {
+    height: 250px;
+    width: 250px;
+    border: 5px solid #e4dabd;
+    overflow: hidden;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #a94f34;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-links {
+    margin-top: 1rem;
   }
 
   /* ----------------------------------------- Making product picture central for mobile */
@@ -319,7 +280,7 @@ p {
 
   /* --------------------------------------- Removing desktop nav bar for mobile (to replace with mobile nav)  */
   .info-navbar {
-    display: none
+    display: none;
   }
 
   .content-area {
@@ -365,7 +326,6 @@ p {
     font-size: 17px;
   }
 
-
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #000000;
@@ -379,10 +339,9 @@ p {
     border-right: none;
     border-left: none;
   }
-
 }
 
-@media (min-width:813px) {
+@media (min-width: 813px) {
   .topnav {
     display: none;
   }
