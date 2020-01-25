@@ -80,13 +80,6 @@ body {
   margin-bottom: 3rem;
 }
 
-/* ---------------------------------------Video Header */
-
-header {
-  width: 100%;
-  overflow: hidden;
-}
-
 /* --------------------------------------- To be sorted */
 .autavia-logo {
   background: url("/tag-project/assets/images/autavia.png");
@@ -189,7 +182,7 @@ header {
   transition: 0.7s all ease-in;
   text-align: center;
   text-decoration: none;
-  font-size: 4vh;
+  font-size: 1.5vw;
   list-style-type: none;
   border-right: 15px solid #ba6f58;
 }
@@ -214,6 +207,11 @@ header {
   margin-bottom: 0;
 }
 
+.content-area p {
+  font-size: 1.6vw;
+  line-height: 5vh;
+}
+
 p {
   font-family: "Exo", sans-serif;
   font-weight: 500;
@@ -233,7 +231,7 @@ p {
 
 /* --------------------------------------------------------------------- Mobile Users */
 
-@media (max-width: 813px) {
+@media (max-width: 766px) {
   .header-text h1 {
     font-size: 2rem;
     padding-top: 1rem;
@@ -341,7 +339,7 @@ p {
   }
 }
 
-@media (min-width: 813px) {
+@media (min-width: 765px) {
   .topnav {
     display: none;
   }

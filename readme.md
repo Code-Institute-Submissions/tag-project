@@ -22,10 +22,14 @@ This project uses:
 
 ## Deployment
 
+I deployed my site to GitHub Pages from the Master branch, so that it will automatically update when I push a new version to the repository.
+
 ## Credits
 
 ### Content
 
+All information on the product pages were taken from Tagheuer.com, along with all pictures used across the website.
+
 ### Media
 
-### Acknowledgements
+The photos used here were all obtained from tagheuer.com
