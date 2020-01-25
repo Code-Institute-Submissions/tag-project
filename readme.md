@@ -20,6 +20,8 @@ This project uses:
 
 ## Testing
 
+This site was tested manually be me and another tester, to exclude bais, through multiple different devices to help ensure compatibility
+
 ## Deployment
 
 I deployed my site to GitHub Pages from the Master branch, so that it will automatically update when I push a new version to the repository.
@@ -28,8 +30,8 @@ I deployed my site to GitHub Pages from the Master branch, so that it will autom
 
 ### Content
 
-All information on the product pages were taken from Tagheuer.com, along with all pictures used across the website.
+All information on the product pages were taken from [TagHeuer](https://tagheuer.com/), along with all pictures used across the website. All code was written by me.
 
 ### Media
 
-The photos used here were all obtained from tagheuer.com
+The photos used here were all obtained from [TagHeuer](https://tagheuer.com/)
