@@ -73,35 +73,55 @@ body {
   margin-bottom: 3rem;
 }
 
-/* --------------------------------------- To be sorted */
 /* -----------------------------------------Picture formatting */
-.autavia-logo,
-.link-logo,
-.monaco-logo,
-.carrera-logo,
-.aquaracer-logo,
-.formula_one-logo {
-  background: url("/tag-project/assets/images/autavia.png");
+
+.monaco-logo {
+  background: url("/tag-project/assets/images/monaco.png");
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
 }
-.monaco-logo {
-  background: url("/tag-project/assets/images/monaco.png");
-}
 .aquaracer-logo {
   background: url("/tag-project/assets/images/aquaracer.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
 }
 .link-logo {
   background: url("/tag-project/assets/images/link-men.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
 }
 .formula_one-logo {
   background: url("/tag-project/assets/images/f1.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
 }
 .carrera-logo {
   background: url("/tag-project/assets/images/carrera.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
+}
+.autavia-logo {
+  background: url("/tag-project/assets/images/autavia.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+  min-height: 360px;
 }
 
 .home-images {
