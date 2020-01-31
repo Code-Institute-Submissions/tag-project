@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
-@import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
 
 /* ---------------------------------------Background Colours */
 
@@ -32,7 +31,8 @@
   text-align: center;
 }
 
-.tag-border-green {
+.tag-border-green,
+.tag-border-red {
   border-top: 15px solid #008150;
   border-bottom: 15px solid #008150;
   border-right: 15px solid #ba6f58;
@@ -40,15 +40,12 @@
 }
 
 .tag-border-red {
-  border-top: 15px solid #008150;
-  border-bottom: 15px solid #008150;
   border-left: 15px solid #ba6f58;
-  border-right: 15px solid #ba6f58;
-  transition: 0.7s all ease-in;
 }
 
 /* ----------------------------------------Text */
-.header-text {
+.header-text,
+.intro-text {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   color: #ffffff8a;
@@ -58,12 +55,8 @@
 }
 
 .intro-text {
-  font-family: "Exo", sans-serif;
-  font-weight: 300;
   color: #e00606ab;
   letter-spacing: 4px;
-  text-align: center;
-  text-transform: capitalize;
 }
 
 .signature {
@@ -81,76 +74,34 @@ body {
 }
 
 /* --------------------------------------- To be sorted */
-.autavia-logo {
+/* -----------------------------------------Picture formatting */
+.autavia-logo,
+.link-logo,
+.monaco-logo,
+.carrera-logo,
+.aquaracer-logo,
+.formula_one-logo {
   background: url("/tag-project/assets/images/autavia.png");
   background-color: black;
   background-position: center;
   background-repeat: round;
   background-size: contain;
   min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
-
 .monaco-logo {
   background: url("/tag-project/assets/images/monaco.png");
-  background-color: black;
-  background-position: center;
-  background-repeat: round;
-  background-size: contain;
-  min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
-
 .aquaracer-logo {
   background: url("/tag-project/assets/images/aquaracer.png");
-  background-color: black;
-  background-position: center;
-  background-repeat: round;
-  background-size: contain;
-  min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
-
 .link-logo {
   background: url("/tag-project/assets/images/link-men.png");
-  background-color: black;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
-  min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
-
 .formula_one-logo {
   background: url("/tag-project/assets/images/f1.png");
-  background-color: black;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
-  height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
-
 .carrera-logo {
   background: url("/tag-project/assets/images/carrera.png");
-  background-color: black;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
-  min-height: 360px;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .home-images {
@@ -170,6 +121,7 @@ body {
   background-color: #a94f34;
 }
 
+/* --------------------------------------------------------------- Product pages */
 .watch-header {
   background-color: black;
   opacity: 0.9;

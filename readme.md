@@ -2,9 +2,19 @@
 
 This is an informational page to be used to find the different collections, in the TAG Heuer brand, a description of the collections and the key selling points to various models.
 
+## Demo
+
+A deployed demo version of my website can be found [Here](https://matt-atcasey.github.io/tag-project/). It is hosted on Github Pages, as detailed in the Deployment section of the Readme.
+
 ## UX
 
 This website is made for the people of the TAG Heuer boutique and would like to know the key models and sellings points for different, well selling, watches. This is meant as an overview and reminder at a glance for training purposes. It was designed for quick and easy access to each information page.
+
+### Design
+
+The design is done specifically as to be on brand, this is so that the website can be used in brand specific stores.
+
+The Index page is designed to almost mimic the TAG Heuer logo ![TAG logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TAG_Heuer_Logo.svg/1024px-TAG_Heuer_Logo.svg.png) and to be very quick getting the user to where they want to be. It does this using a distinctive image from each of the collections so that the intended user can easily navigate.
 
 ## Features
 
@@ -14,13 +24,13 @@ Nav bar completely changes between desktop and mobile to keep quick and easy use
 
 This project uses:
 
-- HTML
+- HTML 5
 - CSS
-- Bootstrap (3.3.7)
+- Bootstrap (4.3.7)
 
 ## Testing
 
-This site was tested manually be me and another tester, to exclude bais, through multiple different devices to help ensure compatibility
+This site was tested manually be me and another tester, to exclude bais, through multiple different devices to help ensure compatibility.
 
 ## Deployment
 
