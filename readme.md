@@ -14,7 +14,7 @@ This website is made for the people of the TAG Heuer boutique and would like to 
 
 The design is done specifically as to be on brand, this is so that the website can be used in brand specific stores.
 
-The Index page is designed to almost mimic the TAG Heuer logo ![TAG logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TAG_Heuer_Logo.svg/1024px-TAG_Heuer_Logo.svg.png) and to be very quick getting the user to where they want to be. It does this using a distinctive image from each of the collections so that the intended user can easily navigate.
+The Index page is designed to almost mimic the TAG Heuer logo, and to be very quick getting the user to where they want to be. It does this using a distinctive image from each of the collections so that the intended user can easily navigate.
 
 ## Features
 
@@ -42,8 +42,8 @@ I deployed my site to GitHub Pages from the Master branch, so that it will autom
 
 All information on the product pages were taken from [TagHeuer](https://tagheuer.com/), along with all pictures used across the website. All code was written by me.
 I created some wireframes that I based this website on:
-<img src="assets/images/wireframe_home.jpg" width="100">
-<img src="assets/images/wireframe_watch_info.jpg" width="100">
+<img src="assets/images/wireframe_home.jpg" width="200">
+<img src="assets/images/wireframe_watch_info.jpg" width="200">
 
 ### Media
 
