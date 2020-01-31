@@ -42,8 +42,8 @@ I deployed my site to GitHub Pages from the Master branch, so that it will autom
 
 All information on the product pages were taken from [TagHeuer](https://tagheuer.com/), along with all pictures used across the website. All code was written by me.
 I created some wireframes that I based this website on:
-<img src="assets/images/wireframe_home.jpg" width="200">
-<img src="assets/images/wireframe_watch_info.jpg" width="200">
+[Home](assets/images/wireframe_home.jpg)
+[informationPages](assets/images/wireframe_watch_info.jpg)
 
 ### Media
 
